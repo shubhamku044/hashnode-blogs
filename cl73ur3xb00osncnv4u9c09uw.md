@@ -16,7 +16,7 @@ So basically when I start a project, I create a root directory with the name `sa
 
 I will talk about each folder and file one by one below.
 
-`**main.scss**` : In `main.scss` I used to import all the `sass/scss` files.
+**`main.scss `** : In `main.scss` I used to import all the `sass/scss` files.
 ```scss
 @import 'abstracts/variables';
 @import 'abstracts/functions';
