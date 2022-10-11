@@ -1,1 +1,93 @@
-IyMgSmF2YVNjcmlwdCBhcnJheSBtZXRob2QgLW1hcCgpCgpIZWxsbyBEZXZlbG9wZXJzLAoKV2hpbGUgY29kaW5nIHlvdSBkZWZpbml0ZWx5IGFycmF5cyBzb21ld2hlcmUgaW4geW91ciBjb2RlLiBhbmQgaWYgeW91IGhhdmUgdXNlZCBhcnJheXMgdGhlbiBtdXN0IG5lZWQgdG8ga25vdyBob3cgdG8gd29yayBsb29wIG92ZXIgYXJyYXlzLgpTbywgYmFzaWNhbGx5IGluIHRoaXMgYmxvZywgd2UgYXJlIGdvaW5nIHRvIGxlYXJuIGFib3V0IHRoZSBtb3N0IHVzZWQgamF2YXNjcmlwdCBhcnJheSBtZXRob2QuIFllcywgeW91IGhhdmUgZ3Vlc3NlZCBpdCBjb3JyZWN0bHksIGl0J3MgdGhlIGBtYXAoKWAgbWV0aG9kLgoKIyMgbWFwKCkKCiVbaHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1sZFE0d0h5MElfOCZ0PTEzc10KClJlbWVtYmVyIGFsbCB0aGUgcG9pbnRzIHdoaWNoIGFyZSB3cml0dGVuIGJlbG93LCBzbyB0aGF0IHlvdSB3aWxsIG5ldmVyIGNvbmZ1c2UgYWJvdXQgd2hlbiBhbmQgd2hlcmUgdG8gdXNlIHRoZSBgbWFwKClgIG1ldGhvZC4KCjEuIEl0IGlzIHVzZWQgdG8gaXRlcmF0ZSBvdmVyIGFuIGFycmF5LCBpdCdzIGp1c3QgbGlrZSBmb3JFYWNoKCkgYW5kIGZvciBvZiBsb29wLgoyLiBJdCBkb2VzIG5vdCBtdXRhdGUgdGhlIG9yaWdpbmFsIGFycmF5LgozLiBJdCByZXR1cm5zIGEgbmV3IGFycmF5LgoKIyMgU3ludGF4CmBgYGphdmFzY3JpcHQKY29uc3QgYXJyYXkgPSBbMiwgNCwgNSwgNl0KCi8vIGl0IHRha2VzIGEgY2FsbGJhY2sgZnVuY3Rpb24KLy8gYXJyYXkubWFwKGNhbGxiYWNrRm4oKSkKCi8vIHBhcmFtZXRlcnMgb2YgY2FsbGJhY2sgZnVuY3Rpb24KLy8gMS4gY2FsbGJhY2tGbihlbGVtZW50KQovLyAyLiBjYWxsYmFja0ZuKGVsZW1lbnQsIGluZGV4KQovLyAzLiBjYWxsYmFja0ZuKGVsZW1lbnQsIGluZGV4LCBhcnJhcnkpICAgIHRoZSAzcmQgb25lIGlzIHRoZSBvcmlnaW5hbCBhcnJheSB3aGVyZSB3ZSBhcmUgdXNpbmcgbWFwKCkKCmBgYAoKV2UgYXJlIGdvaW5nIHRvIGxlYXJuIGphdmFzY3JpcHQgYG1hcCgpYCB3aXRoIDMgcXVlc3Rpb25zLgoKIyMjIFF1ZXN0aW9uIDEKYGBgamF2YXNjcmlwdAovLyBDcmVhdGUgYSBuZXcgYXJyYXkgYmFzZWQgb24gdGhlIGdpdmVuIGFycmF5IHdpdGggdHdpY2UgZXZlcnkgZWxlbWVudC4KLy8gZG91YmxlIFsyLCA2LCA0LCAxNiwgMTgsIDEwLCAyLCAxNF0KCmNvbnN0IG15QXJyYXkgPSBbMSwgMywgMiwgOCwgOSwgNSwgMSwgN10KCmNvbnN0IGRvdWJsZWRBcnJheSA9IG15QXJyYXkubWFwKChlbCkgPT4gZWwgKiAyKQoKYGBgCgojIyMgUXVlc3Rpb24gMgpgYGBqYXZhc2NyaXB0Ci8vIENyZWF0ZSBhIG5ldyBhcnJheSBiYXNlZCBvbiB0aGUgZ2l2ZW4gYXJyYXkgd2l0aCB0aGUgc3VtIG9mIGluZGV4ICsgZWxlbWVudCBhdCB0aGF0IGluZGV4LgovLyBkb3VibGUgWzEsIDQsIDQsIDExLCAxOCwgMTAsIDIsIDE0XQoKY29uc3QgbXlBcnJheSA9IFsxLCAzLCAyLCA4LCA5LCA1LCAxLCA3XQpgYGAKCiMjIyBRdWVzdGlvbiAzCmBgYGphdmFzY3JpcHQKLy8gY3JlYXRlIGEgbmV3IGFycmF5IGJhc2VkIG9uIHRoZSBnaXZlbiBhcnJheSBvYmplY3QsIHRoZSBuZXcgYXJyYXkgc2hvdWxkIGNvbnRhaW4gCgpjb25zdCBpdGVtcyA9IFsKCXsKCQlpZDogMSwKCQlmTmFtZTogJ0pvaG4nLAoJCWxOYW1lOiAnRG9lJywKCX0sCgl7CgkJaWQ6IDIsCgkJZk5hbWU6ICdKdWxpYScsCgkJbE5hbWU6ICdHcmVlbicsCgl9LAoJewoJCWlkOiAzLAoJCWZOYW1lOiAnVGhvbWFzJywKCQlsTmFtZTogJ0ZyZWd1c29uJywKCX0sCgl7CgkJaWQ6IDQsCgkJZk5hbWU6ICdKYW5lJywKCQlsTmFtZTogJ1NtaXRoJywKCX0sCgl7CgkJaWQ6IDUsCgkJZk5hbWU6ICdNYXJpYScsCgkJbE5hbWU6ICdSZWVzZScsCgl9LApdCgpjb25zdCBuZXdJdGVtcyA9IGl0ZW1zLm1hcCgoZWwpID0+IGAke2VsLmZOYW1lfSAke2VsLmxOYW1lfWApCi8vIFsnSm9obiBEb2UnLCAnSnVsaWEgR3JlZW4nLCAnVGhvbWFzIEZyZWd1c29uJywgJ0phbmUgU21pdGgnLCAnTWFyaWEgUmVlc2UnXQpgYGAKCkhvcGUgeW91IGhhdmUgdW5kZXJzdG9vZCB3aGVuIHRvIHVzZSB0aGUgYG1hcCgpYCBtZXRob2QgaW4gamF2YXNjcmlwdAoKSWYgeW91IGhhdmUgYW55IHF1ZXJpZXMgeW91IGNhbiBwb3N0IGluIHRoZSBjb21tZW50LgoKWW91IGNhbiBhbHNvIGNvbm5lY3Qgd2l0aCBtZSBvbiBbTGlua2VkSW5dKGh0dHBzOi8vd3d3LmxpbmtlZGluLmNvbS9pbi9zaHViaGFta3UwNDQpIGFuZCBbVHdpdHRlcl0oaHR0cHM6Ly90d2l0dGVyLmNvbS9zaHViaGFta3UwNDQp
+# JavaScript array method -map()
+
+Hello Developers,
+
+While coding you definitely arrays somewhere in your code. and if you have used arrays then must need to know how to work loop over arrays.
+So, basically in this blog, we are going to learn about the most used javascript array method. Yes, you have guessed it correctly, it's the `map()` method.
+
+## map()
+
+%[https://www.youtube.com/watch?v=ldQ4wHy0I_8&t=13s]
+
+Remember all the points which are written below, so that you will never confuse about when and where to use the `map()` method.
+
+1. It is used to iterate over an array, it's just like forEach() and for of loop.
+2. It does not mutate the original array.
+3. It returns a new array.
+
+## Syntax
+```javascript
+const array = [2, 4, 5, 6]
+
+// it takes a callback function
+// array.map(callbackFn())
+
+// parameters of callback function
+// 1. callbackFn(element)
+// 2. callbackFn(element, index)
+// 3. callbackFn(element, index, arrary)    the 3rd one is the original array where we are using map()
+
+```
+
+We are going to learn javascript `map()` with 3 questions.
+
+### Question 1
+```javascript
+// Create a new array based on the given array with twice every element.
+// double [2, 6, 4, 16, 18, 10, 2, 14]
+
+const myArray = [1, 3, 2, 8, 9, 5, 1, 7]
+
+const doubledArray = myArray.map((el) => el * 2)
+
+```
+
+### Question 2
+```javascript
+// Create a new array based on the given array with the sum of index + element at that index.
+// double [1, 4, 4, 11, 18, 10, 2, 14]
+
+const myArray = [1, 3, 2, 8, 9, 5, 1, 7]
+```
+
+### Question 3
+```javascript
+// create a new array based on the given array object, the new array should contain 
+
+const items = [
+	{
+		id: 1,
+		fName: 'John',
+		lName: 'Doe',
+	},
+	{
+		id: 2,
+		fName: 'Julia',
+		lName: 'Green',
+	},
+	{
+		id: 3,
+		fName: 'Thomas',
+		lName: 'Freguson',
+	},
+	{
+		id: 4,
+		fName: 'Jane',
+		lName: 'Smith',
+	},
+	{
+		id: 5,
+		fName: 'Maria',
+		lName: 'Reese',
+	},
+]
+
+const newItems = items.map((el) => `${el.fName} ${el.lName}`)
+// ['John Doe', 'Julia Green', 'Thomas Freguson', 'Jane Smith', 'Maria Reese']
+```
+
+Hope you have understood when to use the `map()` method in javascript
+
+If you have any queries you can post in the comment.
+
+You can also connect with me on [LinkedIn](https://www.linkedin.com/in/shubhamku044) and [Twitter](https://twitter.com/shubhamku044)
