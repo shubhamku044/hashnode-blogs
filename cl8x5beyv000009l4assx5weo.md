@@ -1,4 +1,4 @@
-## High-level overview of JavaScript
+# High-level overview of JavaScript
 
 Javascript is a <strong>`high-level`</strong> <strong>`prototyped-based object oriented`</strong> <strong>`multi-paradigm`</strong> <strong>`interpreted or just-in-time compiled`</strong> <strong>`dynamic`</strong> <strong>`single-threaded`</strong> <strong>`garbage-collected`</strong> programming language with <strong>`first-class functions`</strong> and a non-blocking <strong>`event loop concurrency model`</strong>.
 
